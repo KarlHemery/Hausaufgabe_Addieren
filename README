@@ -1,0 +1,24 @@
+# Hausaufgabe_Addieren
+
+Dies ist eine einfache Webanwendung, die zwei Zahlen addiert und das Ergebnis zurückgibt. Die Berechnung erfolgt durch eine Verbindung zu einer PostgreSQL-Datenbank.
+
+## Voraussetzungen
+
+Um diese Anwendung auszuführen, benötigen Sie Docker und Docker Compose.
+
+## Installation
+
+1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
+
+   ```sh
+   git clone https://github.com/yourusername/Hausaufgabe_Addieren.git
+
+   Navigieren Sie in das Verzeichnis der geklonten Repository:
+
+   ```
+
+2. Navigieren Sie in das Verzeichnis der geklonten Repository:
+   cd Hausaufgabe_Addieren
+
+3. Starten der Anwendung:
+   docker-compose up --build

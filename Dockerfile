@@ -1,15 +1,16 @@
-FROM golang:latest
+FROM golang:1.22.2
 
 WORKDIR /app
 
-COPY go.mod ./
-COPY go.sum ./
+COPY go.mod go.sum ./
 RUN go mod download
 
 COPY . .
 
-RUN go build -o /myapp
+RUN go get -d -v ./...
+
+RUN go build -o main .
 
 EXPOSE 3000
 
-CMD [ "/myapp" ]
+CMD ["./main"]

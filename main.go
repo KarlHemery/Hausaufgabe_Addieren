@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/yourusername/myapp/internal/handlers"
+	"Hausaufgabe_Addieren/handlers"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"./handlers/handlers.go"
-	"github.com/yourusername/myapp/internal/services"
+	"Hausaufgabe_Addieren/models"
+	"Hausaufgabe_Addieren/services"
 )
 
 func HandleIndex(w http.ResponseWriter, r *http.Request) {
