@@ -10,15 +10,12 @@ Um diese Anwendung auszuführen, benötigen Sie Docker und Docker Compose.
 
 1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
 
-   ```sh
-   git clone https://github.com/yourusername/Hausaufgabe_Addieren.git
-
-   Navigieren Sie in das Verzeichnis der geklonten Repository:
-
-   ```
+   git clone https://github.com/KarlHemery/Hausaufgabe_Addieren
 
 2. Navigieren Sie in das Verzeichnis der geklonten Repository:
+
    cd Hausaufgabe_Addieren
 
 3. Starten der Anwendung:
+
    docker-compose up --build
